@@ -382,7 +382,7 @@ section
 {
 	width: 279px;
 	height: 100%;
-	background: #ffb606;
+	background: #8080ff;
 }
 .header_side img
 {
@@ -395,7 +395,7 @@ section
 	position: relative;
 	font-size: 18px;
 	font-weight: 500;
-	color: #FFFFFF;
+	color: #ffffff;
 	padding-left: 12px;
 }
 
@@ -752,13 +752,13 @@ section
 }
 .contact_title
 {
-	left: 50%;
+	left: 60%;
 	font-size: 36px;
 	font-weight: 500;
 	color: #1a1a1a;
 }
 .contact_form_container
-{
+{	left: 25%;
 	margin-top: 70px;
 }
 .input_field
@@ -784,6 +784,7 @@ section
 	padding-left: 33px;
 	margin-bottom: 24px;
 }
+
 .text_field:focus
 {
 	outline: none !important;

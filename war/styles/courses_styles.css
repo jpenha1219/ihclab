@@ -384,7 +384,7 @@ section
 {
 	width: 279px;
 	height: 100%;
-	background: #ffb606;
+	background: #8080ff;
 }
 .header_side img
 {
@@ -397,7 +397,7 @@ section
 	position: relative;
 	font-size: 18px;
 	font-weight: 500;
-	color: #FFFFFF;
+	color: #ffffff;
 	padding-left: 12px;
 }
 

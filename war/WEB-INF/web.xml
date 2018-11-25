@@ -4,15 +4,101 @@ xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
-	<servlet>
-		<servlet-name>Ihc</servlet-name>
-		<servlet-class>controller.IhcServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Ihc</servlet-name>
-		<url-pattern>/ihc</url-pattern>
-	</servlet-mapping>
+	
+<!--- pagina inicial -->	
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
+	
+	<servlet>
+		<servlet-name>UsersControllerAdd</servlet-name>
+		<servlet-class>controller.UsersControllerAdd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerAdd</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UsersControllerLogin</servlet-name>
+		<servlet-class>controller.UsersControllerLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerLogin</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>		
+	
+<servlet>
+		<servlet-name>UsersControllerRegister</servlet-name>
+		<servlet-class>controller.UsersControllerRegister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerRegister</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>		
+<servlet>
+		<servlet-name>UsersControllerUs</servlet-name>
+		<servlet-class>controller.UsersControllerUs</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerUs</servlet-name>
+		<url-pattern>/us</url-pattern>
+	</servlet-mapping>		
+	<servlet>
+		<servlet-name>UsersControllerService</servlet-name>
+		<servlet-class>controller.UsersControllerService</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerService</servlet-name>
+		<url-pattern>/services</url-pattern>
+	</servlet-mapping>		
+	
+	<servlet>
+		<servlet-name>UsersControllerPromo</servlet-name>
+		<servlet-class>controller.UsersControllerPromo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerPromo</servlet-name>
+		<url-pattern>/promo</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>UsersControllerContact</servlet-name>
+		<servlet-class>controller.UsersControllerContact</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerContact</servlet-name>
+		<url-pattern>/contact</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>IndexController</servlet-name>
+		<servlet-class>controller.IndexController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>IndexController</servlet-name>
+		<url-pattern>/index</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>UsersControllerPerfil</servlet-name>
+		<servlet-class>controller.UsersControllerPerfil</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerPerfil</servlet-name>
+		<url-pattern>/perfil</url-pattern>
+	</servlet-mapping>	
+	<servlet>
+		<servlet-name>UsersControllerLogout</servlet-name>
+		<servlet-class>controller.UsersControllerLogout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerLogout</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>			
+	<servlet>
+		<servlet-name>UsersControllerAdmin</servlet-name>
+		<servlet-class>controller.UsersControllerAdmin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UsersControllerAdmin</servlet-name>
+		<url-pattern>/admin</url-pattern>
+	</servlet-mapping>
 </web-app>
